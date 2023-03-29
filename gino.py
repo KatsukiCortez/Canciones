@@ -20,15 +20,15 @@ def agregar_cancion():
 
 
 # mostrar todas las canciones
-"""def mostrar_canciones():
+def mostrar_canciones():
     if len(canciones) == 0:
         print("No se han registrado canciones.")
     else:
         for cancion in canciones:
-            print(f'Cancion: {cancion["nombre"]}, Compositor: {cancion["compositor"]}, Cantante: {cancion["cantante"]}, Álbum: {cancion["album"]}')"""
+            print(f'Cancion: {cancion["nombre"]}, Compositor: {cancion["compositor"]}, Cantante: {cancion["cantante"]}, Álbum: {cancion["album"]}')
 
 # menu para agregar y mostrar las canciones
-"""while True:
+while True:
     print("1. Agregar una canción")
     print("2. Mostrar todas las canciones")
     print("3. Salir")
@@ -42,12 +42,12 @@ def agregar_cancion():
         print("Gracias por usar el programa. Hasta luego.")
         break
     else:
-        print("Opción inválida. Intente de nuevo.")"""
+        print("Opción inválida. Intente de nuevo.")
 
 ##################################################################
 
 
-from tkinter import *
+"""from tkinter import *
 from tkinter import ttk
 raiz = Tk()
 raiz.title("Las Canciones")
@@ -88,4 +88,4 @@ botonConfirmed = ttk.Button(text="Confirmar")
 botonConfirmed.place(x=300, y=400)
 
 raiz.mainloop()
-
+"""
