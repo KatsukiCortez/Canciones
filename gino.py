@@ -16,7 +16,7 @@ def agregar_cancion():
         "year": year
     }
     canciones.append(cancion)
-    print("Canción agregada con éxito.")
+    print("Gino Cambio esta linea")
 
 
 # mostrar todas las canciones
